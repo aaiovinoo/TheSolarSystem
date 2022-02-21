@@ -29,16 +29,19 @@ import androidx.recyclerview.widget.RecyclerView
  * Adapter for the [RecyclerView] in [MainActivity].
  */
 class PlanetAdapter :
-    RecyclerView.Adapter<PlanetAdapter.LetterViewHolder>() {
+    RecyclerView.Adapter<PlanetAdapter.PlanetViewHolder>() {
 
     private val list = listOf("Sun","Mercury","Venus", "Earth", "Mars","Jupiter","Saturn",
     "Uranus","Neptune","Pluto")
+    private val listImages = listOf(R.drawable.sun,R.drawable.mercury, R.drawable.venus,
+        R.drawable.earth, R.drawable.mars, R.drawable.jupiter, R.drawable.saturn,
+        R.drawable.uranus, R.drawable.neptune, R.drawable.pluto)
 
 
     /**
      * Provides a reference for the views needed to display items in your list.
      */
-    class LetterViewHolder(val view: View) : RecyclerView.ViewHolder(view) {
+    class PlanetViewHolder(val view: View) : RecyclerView.ViewHolder(view) {
         val button = view.findViewById<Button>(R.id.button_item)
     }
 
@@ -49,19 +52,19 @@ class PlanetAdapter :
     /**
      * Creates new views with R.layout.item_view as its template
      */
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): LetterViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PlanetViewHolder {
         val layout = LayoutInflater
                 .from(parent.context)
                 .inflate(R.layout.item_view, parent, false)
         // Setup custom accessibility delegate to set the text read
         layout.accessibilityDelegate = Accessibility
-        return LetterViewHolder(layout)
+        return PlanetViewHolder(layout)
     }
 
     /**
      * Replaces the content of an existing view with new data
      */
-    override fun onBindViewHolder(holder: LetterViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: PlanetViewHolder, position: Int) {
         val item = list.get(position)
         holder.button.text = item.toString()
         holder.button.setOnClickListener {

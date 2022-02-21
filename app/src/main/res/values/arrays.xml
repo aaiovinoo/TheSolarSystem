@@ -8,7 +8,6 @@
         <item>Temperatures inside the Sun can reach 15 million degrees Celsius. </item>
         <item>The Sun, formed about 4.6 billion years ago, is roughly halfway through the most stable part of its life. </item>
     </string-array>
-    /*
     <string-array name="mercury">
         <item>fact1</item>
         <item>fact2</item>
@@ -99,6 +98,5 @@
         <item>fact7</item>
         <item>fact8</item>
     </string-array>
-    */
 </resources>
 
