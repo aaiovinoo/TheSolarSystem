@@ -14,9 +14,10 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<Button xmlns:android="http://schemas.android.com/apk/res/android"
+<ImageButton xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/button_item"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="4dp"
     android:padding="16dp" />
+

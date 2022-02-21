@@ -22,6 +22,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.view.accessibility.AccessibilityNodeInfo
 import android.widget.Button
+import android.widget.ImageButton
 import androidx.annotation.RequiresApi
 import androidx.recyclerview.widget.RecyclerView
 
@@ -31,7 +32,7 @@ import androidx.recyclerview.widget.RecyclerView
 class PlanetAdapter :
     RecyclerView.Adapter<PlanetAdapter.PlanetViewHolder>() {
 
-    private val list = listOf("Sun","Mercury","Venus", "Earth", "Mars","Jupiter","Saturn",
+    private val listPlanets = listOf("Sun","Mercury","Venus", "Earth", "Mars","Jupiter","Saturn",
     "Uranus","Neptune","Pluto")
     private val listImages = listOf(R.drawable.sun,R.drawable.mercury, R.drawable.venus,
         R.drawable.earth, R.drawable.mars, R.drawable.jupiter, R.drawable.saturn,
@@ -42,11 +43,11 @@ class PlanetAdapter :
      * Provides a reference for the views needed to display items in your list.
      */
     class PlanetViewHolder(val view: View) : RecyclerView.ViewHolder(view) {
-        val button = view.findViewById<Button>(R.id.button_item)
+        val button = view.findViewById<ImageButton>(R.id.button_item)
     }
 
     override fun getItemCount(): Int {
-        return list.size
+        return listImages.size
     }
 
     /**
@@ -65,14 +66,20 @@ class PlanetAdapter :
      * Replaces the content of an existing view with new data
      */
     override fun onBindViewHolder(holder: PlanetViewHolder, position: Int) {
-        val item = list.get(position)
-        holder.button.text = item.toString()
+        val item = listImages.get(position)
+        //val item = listPlanets.get(position)
+        holder.button.setImageResource(item)
+       holder.button.setTag(listPlanets.get(position))
+        //holder.button.text = item.toString()
+
         holder.button.setOnClickListener {
             val context = holder.view.context
             // The name of the activity you want to show is specified with DetailActivity::class.java. An actual DetailActivity object is created behind the scenes.
             val intent = Intent(context, DetailActivity::class.java)
             // n extra is a piece of data, such as a number or string, that is given a name to be retrieved later.
-            intent.putExtra(DetailActivity.PLANET, holder.button.text.toString())
+            //intent.putExtra(DetailActivity.PLANET, holder.button.getTag().toString())
+            //intent.putExtra(DetailActivity.PLANET, listPlanets.get(position))
+            intent.putExtra(DetailActivity.PLANET, holder.button.tag.toString())
             context.startActivity(intent)
         }
     }

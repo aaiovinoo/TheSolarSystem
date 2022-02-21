@@ -75,6 +75,9 @@ class FactAdapter(private val planetId: String, context: Context) :
             // Retrieve the list of facts from res/values/arrays.xml
             val facts = context.resources.getStringArray(R.array.pluto).toList()
             filteredWords = facts
+        } else{
+            val facts = context.resources.getStringArray(R.array.pluto).toList()
+            filteredWords = facts
         }
 
 
@@ -107,7 +110,7 @@ class FactAdapter(private val planetId: String, context: Context) :
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): WordViewHolder {
         val layout = LayoutInflater
             .from(parent.context)
-            .inflate(R.layout.item_view, parent, false)
+            .inflate(R.layout.fact_view, parent, false)
 
         // Setup custom accessibility delegate to set the text read
         layout.accessibilityDelegate = PlanetAdapter
