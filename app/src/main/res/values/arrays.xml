@@ -9,54 +9,54 @@
         <item>The Sun, formed about 4.6 billion years ago, is roughly halfway through the most stable part of its life. </item>
     </string-array>
     <string-array name="mercury">
-        <item>fact1</item>
-        <item>fact2</item>
-        <item>fact3</item>
-        <item>fact4</item>
-        <item>fact5</item>
-        <item>fact6</item>
-        <item>fact7</item>
-        <item>fact8</item>
+        <item>Mercury is 68.861 million kilometers from the sun</item>
+        <item>Mercury could fit inside Earth 18 times</item>
+        <item>Mercury’s days are 1408 Earth hours while a year on mercury is only 88 Earth days</item>
+        <item>Mercury does not have any moons</item>
+        <item>Mercury is terrestrial, meaning it’s made up of solid Earth like material</item>
+        <item>Mercury possesses a thin exosphere made up of material blasted off the surface by solar winds and meteoroids</item>
+        <item>Mercury’s surface temperature ranges from 430ºC to -180ºC</item>
+        <item>Mercury is the Roman god of commerce, communication and luck. Greek: Hermes</item>
     </string-array>
     <string-array name="venus">
-        <item>fact1</item>
-        <item>fact2</item>
-        <item>fact3</item>
-        <item>fact4</item>
-        <item>fact5</item>
-        <item>fact6</item>
-        <item>fact7</item>
-        <item>fact8</item>
+        <item>Venus is 107.721 million kilometers away from the sun</item>
+        <item>Venus is very similar in size to Earth only being 0.866 as much volume as Earth</item>
+        <item>One Venus day is 116 days and 18 hours on Earth, while one year is only 225 Earth days</item>
+        <item>Venus lacks any amount of moons</item>
+        <item>Venus is terrestrial, meaning it’s a rocky planet</item>
+        <item>Venus’ atmosphere is thick and toxic being filled with carbon dioxide and yellowish clouds of sulfuric acid</item>
+        <item>The temperature on venus ranges from 438ºC to 482ºC</item>
+        <item>Venus is the Roman goddess of love, beauty, and desire. Greek: Aphrodite</item>
     </string-array>
     <string-array name="earth">
-        <item>fact1</item>
-        <item>fact2</item>
-        <item>fact3</item>
-        <item>fact4</item>
-        <item>fact5</item>
-        <item>fact6</item>
-        <item>fact7</item>
-        <item>fact8</item>
+        <item>Earth is 147.976 million kilometers from the sun</item>
+        <item>The Earth has a diameter of 12,742 kilometers</item>
+        <item>One day on Earth is 24hrs while a year is 365 days</item>
+        <item>Earth has one moon, the moon</item>
+        <item>Earth is terrestrial</item>
+        <item>Earth’s atmosphere is 78% Nitrogen, 21% Oxygen, 0.9% Argon, and 0.1% other gasses</item>
+        <item>The highest temperature recorded on Earth is 58ºC while the lowest is -88ºC</item>
+        <item>The Roman goddess for Earth is Terra</item>
     </string-array>
     <string-array name="mars">
-        <item>fact1</item>
-        <item>fact2</item>
-        <item>fact3</item>
-        <item>fact4</item>
-        <item>fact5</item>
-        <item>fact6</item>
-        <item>fact7</item>
-        <item>fact8</item>
+        <item>Mars is 221.076 kilometers from the sun</item>
+        <item>Mars is smaller than Earth and you can actually fit 7 Mars’s inside Earth</item>
+        <item>One Mars day is equivalent to 1 day and 37 minutes on Earth while one year on Mars is 697 days on Earth</item>
+        <item>Mars has 2 moons, Phobos and Deimos</item>
+        <item>Mars is terrestrial and very red</item>
+        <item>Mars’ atmosphere is 95% carbon dioxide, 3% nitrogen, 1.6% argon, and has traces of oxygen, water, and other greenhouse gasses</item>
+        <item>The temperature on Mars ranges from -140ºC to 21ºC</item>
+        <item>Mars is the Roman god of war. Greek: Ares</item>
     </string-array>
     <string-array name="jupiter">
-        <item>fact1</item>
-        <item>fact2</item>
-        <item>fact3</item>
-        <item>fact4</item>
-        <item>fact5</item>
-        <item>fact6</item>
-        <item>fact7</item>
-        <item>fact8</item>
+        <item>Jupiter is 745.673 million km away from the sun</item>
+        <item>You can fit more than 1,300 Earths inside Jupiter</item>
+        <item>One day on Jupiter is 9 hours and 56 minutes on Earth. One year on Jupiter is 12 Earth years</item>
+        <item>Jupiter has 53 named moons and 26 other nameless moons</item>
+        <item>Jupiter is a gaseous planet</item>
+        <item>Jupiter’s atmosphere is made up of a mixture of hydrogen, helium, methane, and ammonia</item>
+        <item>The temperature on Jupiter ranges from -145ºC to 24,000ºC near the center</item>
+        <item>Jupiter is the Roman king of the gods and god of the sky and lightning. Greek: Zeus</item>
     </string-array>
     <string-array name="saturn">
         <item>fact1</item>
