@@ -59,44 +59,47 @@
         <item>fact8</item>
     </string-array>
     <string-array name="saturn">
-        <item>fact1</item>
-        <item>fact2</item>
-        <item>fact3</item>
-        <item>fact4</item>
-        <item>fact5</item>
-        <item>fact6</item>
-        <item>fact7</item>
-        <item>fact8</item>
+        <item>Saturn is 95 times as massive as Earth but occupies a volume 766 times greater</item>
+        <item>One day on Saturn is 11 hours long and its orbital period is 29 Earth years</item>
+        <item>Saturn has 82 moons</item>
+        <item>Hydrogen makes up nearly all of the atmosphere, with lesser amounts of helium and much lesser quantities of methane and ammonia</item>
+        <item>Saturn is classified as a gas giant because it is almost completely made of gas
+</item>
+        <item>Saturn is 1.48 billion km from the sun</item>
+        <item>At the top layer of the atmosphere, the temperature ranges from minus 173 degrees Celsius to minus 113 degrees Celsius</item>
+        <item>Saturn’s associated god in Roman religion is named Saturn
+</item>
     </string-array>
     <string-array name="uranus">
-        <item>fact1</item>
-        <item>fact2</item>
-        <item>fact3</item>
-        <item>fact4</item>
-        <item>fact5</item>
-        <item>fact6</item>
-        <item>fact7</item>
-        <item>fact8</item>
+        <item>Uranus has a volume which is about 63 times the volume of Earth which means that 63 Earths can fit inside Uranus</item>
+        <item>One day on Uranus is 17 hours and its orbital period is 84 Earth years</item>
+        <item>Uranus has 27 moons</item>
+        <item>Uranus has an atmosphere composed of mostly hydrogen, followed by helium and a little methane</item>
+        <item>Uranus is a gas giant</item>
+        <item>Uranus is 2.9487 billion km from the sun</item>
+        <item>The temperature of Uranus averages minus 195 degrees Celsius, according to NASA
+</item>
+        <item>Caelus is the associated god of Uranus in Roman religion</item>
     </string-array>
     <string-array name="neptune">
-        <item>fact1</item>
-        <item>fact2</item>
-        <item>fact3</item>
+        <item>Neptune is almost 58 times the volume of Earth</item>
+        <item>One day on Neptune is 16 hours and a year on Neptune lasts as long as about 165 years here on Earth</item>
+        <item>Neptune has 14 moons</item>
         <item>fact4</item>
-        <item>fact5</item>
-        <item>fact6</item>
-        <item>fact7</item>
-        <item>fact8</item>
+        <item>Neptune is a gas giant</item>
+        <item>Neptune is 4.4746 billion km from the sun</item>
+        <item>Neptune experiences temperatures that range from approximately -218 °C to -200 °C, making it the coldest planet in the Solar System</item>
+        <item>Neptune’s associated god in Roman religion is named Neptune</item>
     </string-array>
     <string-array name="pluto">
-        <item>fact1</item>
-        <item>fact2</item>
-        <item>fact3</item>
-        <item>fact4</item>
+        <item>Pluto is only 0.59% of the volume of the Earth</item>
+        <item>A day on Pluto lasts 153 hours, or about 6 Earth days; a year on Pluto is 248 years</item>
+        <item>Pluto has 5 moons</item>
+        <item>The main constituent of Pluto’s atmosphere is molecular nitrogen, though molecules of methane and carbon monoxide have also been detected</item>
         <item>fact5</item>
-        <item>fact6</item>
-        <item>fact7</item>
-        <item>fact8</item>
+        <item>Pluto is 5.9 billion km from the sun</item>
+        <item>The temperature on Pluto can be as cold as -226 to -240 degrees Celsius</item>
+        <item>Pluto was named after the Roman god of death</item>
     </string-array>
 </resources>
 
